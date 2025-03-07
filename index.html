@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p>Autheor name : <h2 id="names"></h2> </p> -->
+
+    <!-- <h2 id="date"></h2>
+
+    <button onclick="this.innerHTML=Date()">Click !</button> -->
+
+    <h2 id="tag"></h2>
+
+
+
+    <script>
+
+        //7th march
+        // if(10 > 23){
+        //     document.getElementById("tag").innerHTML = "Hello";
+        // }else if(10 < 23){
+        //     document.getElementById("tag").innerHTML = "Bye";
+        // }else if(10 == 23){
+        //     document.getElementById("tag").innerHTML = "Equal"; 
+        // }else{
+        //     document.getElementById("tag").innerHTML = "Not found";
+        // }
+       
+        //switch cases
+        // switch(10){
+        //     case 10:
+        //         document.getElementById("tag").innerHTML = " Hello";
+        //         break;
+        //     case 20:
+        //         document.getElementById("tag").innerHTML = "Bye";
+        //         break;      
+        //     default:
+        //         document.getElementById("tag").innerHTML = "Not found";
+        //         break;
+        // }
+
+        //for loop
+        // const arr = ["dhan", "daulat", "shaurat"];
+        // let outcome = " " ;
+
+        //for loop
+        // for(let i = 0; i<arr.length;i++){
+        //     outcome += arr[i] +"<br>";
+        // }
+        // document.getElementById("tag").innerHTML = outcome;
+
+        //for each loop
+        // for(let i in arr){
+        //     outcome += arr[i] +"<br>";
+        // }
+        // document.getElementById("tag").innerHTML = outcome;
+
+        //for of loop
+        // for(let i of arr){
+        //     outcome += i +"<br>";
+        // }
+        // document.getElementById("tag").innerHTML = outcome;
+
+        //while Loop
+        // const arr = ["dhan", "daulat", "shaurat"];
+        // let outcome = 3 ;
+        // while(outcome < 10){
+        //     document.getElementById("tag").innerHTML = outcome;
+        //     outcome++;
+        // }
+
+        // const arr = ["dhan", "daulat", "shaurat"];
+        // let outcome = 2 ;
+        // let text = " ";
+        // while(outcome < 10){
+        //     if(outcome === 5){
+        //        // break;
+        //        continue;
+        //     }
+        //     text += outcome + "<br>";
+        //     outcome++;
+        // }
+
+
+
+
+        // for(let i = 0; i <= 5; i++){      
+        //     document.getElementById("tag").innerHTML += i + "<br>";
+        //  }
+
+
+        //6th march
+
+       // let text = "abhi";
+       // let text2 = new String ("abhi");
+        // document.getElementById('date').innerHTML = (text === text2);
+        // document.getElementById('date').innerHTML = text.at(-3);
+        //aschi value
+       // document.getElementById('date').innerHTML = text.charCodeAt(3);
+
+        //slice 
+       // let text = "Priyadarshini college of ENgineering";
+        // let text2 = "nagpur";
+        // let text3 = "maharashtra";
+        // let text4 = "india";    
+        //let sliced = text.slice(14,21);
+       // document.getElementById('date').innerHTML = sliced;
+      
+        //document.getElementById('date').innerHTML = text.concat(", ",text2);
+
+        //trim method for remove the space from the string
+        
+        // let text = "   Nagpur     ";
+        // let text1 = text.trim();
+        // //let text1 = text.trimEnd();
+        // //let text1 = text.trimStart();
+        // document.getElementById('date').innerHTML = text.length + " "+text1.length;
+
+        //repeat method
+        //  let text = "abhi ";
+        //  document.getElementById('date').innerHTML = text.repeat(5);
+
+        //replace method
+        // let text = "abhi!! ";
+        // document.getElementById('date').innerHTML = text.replace("!!", "??");
+
+        //replaceAll method
+       //  let text = "Nagpur is a orange city! and Nagpur is a smart city!!";
+        // document.getElementById('date').innerHTML = text.replaceAll("Nagpur", "Pune"); 
+
+        //split method
+        // let text = "x,y,z";
+        // document.getElementById('date').innerHTML = text.split(",");
+
+        //indexOF method
+       // let text = "Nagpur is a orange city! and Nagpur is a smart city!!";
+       // document.getElementById('date').innerHTML = text.indexOf("is");
+      // document.getElementById('date').innerHTML = text.lastIndexOf("Nagpur");
+
+      //includes method
+        //  let text = "Nagpur is a orange city! and Nagpur is a smart city!!";
+        //  document.getElementById('date').innerHTML = text.includes("pune");
+
+        //push method
+        //const arr = ["abhi", "yash", "sanket"];
+       // const arr1 = new Array("uday", "Deepak", "Deep");
+       // arr.push("santosh");
+       //arr.shift("gaurav");
+      // arr.unshift("Bhaiii");
+        //delete arr[2];
+        //document.getElementById('date').innerHTML = arr;
+
+        //toStering method
+        //document.getElementById('date').innerHTML = arr.toString();
+        //document.getElementById('date').innerHTML = arr.at(3);
+        //document.getElementById('date').innerHTML = arr;
+
+        //add arr1 to arr method
+        // const arr2 = arr.concat(arr,arr1);
+        // document.getElementById('date').innerHTML = arr2;
+
+        //2D array
+        // const arr2D = [[1,2,3], [4,5,6], [7,8,9]];
+        // document.getElementById('date').innerHTML = arr2D;
+
+        //slice method -> required elemtent from array -> elements ko nikalta hai arrays me se
+        // const arr3 = arr.slice(1,3);
+        // document.getElementById('date').innerHTML = arr3;
+
+        //splice method
+        // const arr4 = arr.splice(1,2, "santosh", "gaurav");
+       // document.getElementById('date').innerHTML = arr4;
+
+
+        
+       
+
+        
+        //5th march
+
+        // function book(auth, p_date, sales, rate){
+        //     this.author = auth;
+        //     this.pub_date = p_date;
+        //     this.sale = sales;
+        //     this.rating = rate;
+        // }
+
+        // const  book1 = new book("Abhi", "2023-12-12", " 100", "5");
+        // const  book2 = new book("yash", "2025-1-12", " 190", "5");
+
+        // document.getElementById("names").innerHTML = book1.author +" "+ book2.author;
+
+        
+       
+
+
+    </script>
+</body>
+</html>
